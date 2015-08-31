@@ -28,7 +28,7 @@ var proxy_type = 'HTTPS'; // or 'SOCKS5'
 當 `proxy_type`  選爲 `HTTPS` 時，此 pac 文件適合用於 [Google Chrome 的安全代理](http://www.chromium.org/developers/design-documents/secure-web-proxy)。
 
 
-適用於Proxy SwitchyOmega的快速存檔恢復 `http://ippocdn.qiniudn.com/OmegaOptions.bak`
+適用於Proxy SwitchyOmega的快速存檔恢復 `http://7rfkd6.com5.z0.glb.clouddn.com/OmegaOptions.bak`
 
 ![使用 pac 文件](http://ww2.sinaimg.cn/large/6d9bd6a5gw1eogqk48awgj21ci10yk01.jpg)
 
@@ -47,19 +47,19 @@ var proxy_type = 'HTTPS'; // or 'SOCKS5'
 白名單
 
 ```
-http://ippocdn.qiniudn.com/whitelists.pac
+http://7rfkd6.com5.z0.glb.clouddn.com/whitelists.pac
 ```
 
 黑名單
 
 gfwlists2pac
 ```
-http://ippocdn.qiniudn.com/proxy.pac
+http://7rfkd6.com5.z0.glb.clouddn.com/proxy.pac
 ```
 
 全局
 ```
-http://ippocdn.qiniudn.com/global.pac
+http://7rfkd6.com5.z0.glb.clouddn.com/global.pac
 ```
 
 
