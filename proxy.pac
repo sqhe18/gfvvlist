@@ -2517,7 +2517,6 @@ var domains = {
   "google-analytics.com": 1,
   "google.com": 1,
   "googlecode.com": 1,
-  "amazonaws.com": 1,
   "slack.com": 1,
   "slack-redir.net": 1,
   "slack-core.com": 1,
