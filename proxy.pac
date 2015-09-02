@@ -2521,6 +2521,7 @@ var domains = {
   "slack.com": 1,
   "slack-redir.net": 1,
   "slack-core.com": 1,
+  "s3-us-west-2.amazonaws.com": 1,
   "slack.global.ssl.fastly.net": 1,
   "googleusercontent.com": 1,
   "github.com": 1,
