@@ -18,11 +18,11 @@ Chrome用戶推薦使用 moew的新作 [Chrome擴展程序Proxy SwitchyOmega](ht
 
 
 ```
-var ip_address = 'www.abc.com:443'; // 需要更換成有效的域名
+var ip_address = '127.0.0.1:1080'; // 需要更換成有效的域名
 ```
 
 ```
-var proxy_type = 'HTTPS'; // or 'SOCKS5'
+var proxy_type = 'SOCKS5'; // or 'HTTPS' or 'PROXY'
 ```
 
 當 `proxy_type`  選爲 `HTTPS` 時，此 pac 文件適合用於 [Google Chrome 的安全代理](http://www.chromium.org/developers/design-documents/secure-web-proxy)。
@@ -113,7 +113,7 @@ shrpx --client-proxy [-b <HOST,PORT>] [-f <HOST,PORT>]
 
 ------
 
-© 2012-2013 本文檔修改於n0gfwall0@gmail.com，MIT License。 本文檔使用了 [Mou](//mouapp.com) 和 [Marked](http://markedapp.com) 進行編輯。
+© 2012-2013 本文檔修改於n0gfwall0@gmail.com和，MIT License 。
 
 
 
@@ -126,5 +126,3 @@ shrpx --client-proxy [-b <HOST,PORT>] [-f <HOST,PORT>]
 Shadowsocks for iOS
 
 本地監聽端口爲`SOCKS 127.0.0.1:1983`
-
-代理地址爲`http://127.0.0.1:1993/blacklist.pac`
