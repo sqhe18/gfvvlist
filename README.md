@@ -113,7 +113,9 @@ shrpx --client-proxy [-b <HOST,PORT>] [-f <HOST,PORT>]
 
 ------
 
-© 2012-2013 本文檔修改於n0gfwall0@gmail.com和，MIT License 。
+© 2012-2013 本文檔修改於n0gfwall0@gmail.com  
+
+MIT License 
 
 
 
