@@ -16,7 +16,7 @@ var RULES = [
         ".qiniu.com",
         ".ifanr.com",
         ".alitrip.com",
-        ".ssapi.com",
+        ".sspai.com",
         ".dgtle.com",
         ".useso.com",
         ".gitcafe.xyz",
