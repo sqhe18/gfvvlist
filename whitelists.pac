@@ -10,8 +10,9 @@ var RULES = [
     ],
     //custom-list
     [
-        "sonkwo.com",
-        "steamcn.com",
+        ".duoshuo.com",
+        ".sonkwo.com",
+        ".steamcn.com",
         ".qishu.co",
         ".mindstore.io",
         ".minecraftxz.com",
