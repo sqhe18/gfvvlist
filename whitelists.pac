@@ -1,6 +1,6 @@
 // Version 1.3.2.6
-var IP_ADDRESS = '10.0.0.140:7777';
-var PROXY_TYPE = 'PROXY'; // or 'SOCKS5' or 'HTTPS' or 'PROXY'
+var IP_ADDRESS = '127.0.0.1:1080';
+var PROXY_TYPE = 'SOCKS5'; // or 'SOCKS5' or 'HTTPS' or 'PROXY'
 var PROXY_METHOD = PROXY_TYPE + ' ' + IP_ADDRESS;
   // Feel free to add or edit custom list
 var RULES = [
