@@ -22,6 +22,7 @@ var RULES = [
         ".sonkwo.com",
         ".steamcn.com",
         ".qishu.co",
+        ".coding.net",
         ".mindstore.io",
         ".minecraftxz.com",
         ".upaiyun.com",
