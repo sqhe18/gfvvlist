@@ -10,6 +10,7 @@ var RULES = [
     ],
     //custom-list
     [
+        ".v2ex.com"
         ".baozoumanhua.com",
         ".igeak.com",
         ".mi.com",
