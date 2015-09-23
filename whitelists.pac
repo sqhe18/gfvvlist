@@ -1,4 +1,4 @@
-// Version 1.3.2.6
+// Version 1.3.2.8
 var IP_ADDRESS = '127.0.0.1:1080';
 var PROXY_TYPE = 'SOCKS5'; // or 'SOCKS5' or 'HTTPS' or 'PROXY'
 var PROXY_METHOD = PROXY_TYPE + ' ' + IP_ADDRESS;
@@ -10,6 +10,10 @@ var RULES = [
     ],
     //custom-list
     [
+        ".lagou.com",
+        ".sf.gg",
+        ".segmentfault.com",
+        ".conoha.jp",
         ".upyun.com",
         ".duoshuo.com",
         ".sonkwo.com",
