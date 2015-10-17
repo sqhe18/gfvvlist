@@ -28,7 +28,11 @@ var proxy_type = 'SOCKS5'; // or 'HTTPS' or 'PROXY'
 當 `proxy_type`  選爲 `HTTPS` 時，此 pac 文件適合用於 [Google Chrome 的安全代理](http://www.chromium.org/developers/design-documents/secure-web-proxy)。
 
 
-適用於Proxy SwitchyOmega的快速存檔恢復 `http://7rfkd6.com5.z0.glb.clouddn.com/WhiteListsOmegaOptions.bak` 或者 `http://7rfkd6.com5.z0.glb.clouddn.com/BlackListsOmegaOptions.bak`
+適用於Proxy SwitchyOmega的快速存檔恢復 `http://7rfkd6.com5.z0.glb.clouddn.com/WhiteListsOmegaOptions.bak`
+
+或者
+
+ `http://7rfkd6.com5.z0.glb.clouddn.com/BlackListsOmegaOptions.bak`
 
 ![使用 pac 文件](http://ww2.sinaimg.cn/large/6d9bd6a5gw1eogqk48awgj21ci10yk01.jpg)
 
@@ -44,6 +48,8 @@ var proxy_type = 'SOCKS5'; // or 'HTTPS' or 'PROXY'
 
 
 只需要將下面那個地址，直接貼入上圖中 “Auto Config URL” 那個位置，,
+
+
 白名單
 
 Socks5 Proxy Policy
