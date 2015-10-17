@@ -28,7 +28,7 @@ var proxy_type = 'SOCKS5'; // or 'HTTPS' or 'PROXY'
 當 `proxy_type`  選爲 `HTTPS` 時，此 pac 文件適合用於 [Google Chrome 的安全代理](http://www.chromium.org/developers/design-documents/secure-web-proxy)。
 
 
-適用於Proxy SwitchyOmega的快速存檔恢復 `http://coding.net/u/kawaiiushio/p/gfvvlist/git/raw/master/OmegaOptions.bak`
+適用於Proxy SwitchyOmega的快速存檔恢復 `http://7rfkd6.com5.z0.glb.clouddn.com/WhiteListsOmegaOptions.bak` 或者 `http://7rfkd6.com5.z0.glb.clouddn.com/BlackListsOmegaOptions.bak`
 
 ![使用 pac 文件](http://ww2.sinaimg.cn/large/6d9bd6a5gw1eogqk48awgj21ci10yk01.jpg)
 
@@ -46,20 +46,33 @@ var proxy_type = 'SOCKS5'; // or 'HTTPS' or 'PROXY'
 只需要將下面那個地址，直接貼入上圖中 “Auto Config URL” 那個位置，,
 白名單
 
+Socks5 Proxy Policy
 ```
-http://coding.net/u/kawaiiushio/p/gfvvlist/git/raw/master/whitelists.pac
+http://7rfkd6.com5.z0.glb.clouddn.com/socks5proxyw.pac
 ```
+
+Http Proxy Policy
+```
+http://7rfkd6.com5.z0.glb.clouddn.com/httpproxyw.pac
+```
+
 
 黑名單
 
-gfwlists2pac
+Socks5 Proxy Policy
 ```
-http://coding.net/u/kawaiiushio/p/gfvvlist/git/raw/master/proxy.pac
+http://7rfkd6.com5.z0.glb.clouddn.com/socks5proxyb.pac
 ```
+
+Http Proxy Policy
+```
+http://7rfkd6.com5.z0.glb.clouddn.com/httpproxyb.pac
+```
+
 
 全局
 ```
-http://coding.net/u/kawaiiushio/p/gfvvlist/git/raw/master/global.pac
+http://7rfkd6.com5.z0.glb.clouddn.com/global.pac
 ```
 
 
@@ -113,10 +126,10 @@ shrpx --client-proxy [-b <HOST,PORT>] [-f <HOST,PORT>]
 
 ------
 
-© 2012-2013 本文檔修改於n0gfwall0@gmail.com  
+本項目基於 [mono_pac](https://github.com/blackgear/mono_pac)
+本文檔修改於n0gfwall0@gmail.com  
 
 MIT License
-
 
 
 需要改進的地方歡迎fork & pull request / issue ~

@@ -1,6 +1,11 @@
 [SwitchyOmega Conditions]
 @with result
 
+*.oiktv.com +Shadowsocks
+*.twitter.com +Shadowsocks
+*.miwifi.com +direct
+*.v2ex.com +direct
+*.conoha.jp +direct
 *.cn +direct
 *.upyun.com +direct
 *.duoshuo.com +direct
