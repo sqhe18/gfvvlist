@@ -4,8 +4,41 @@ local
 lan
 localhost
 
+# xiaomi
+mi.com
+miui.com
+
+# sf
+segmentfault.com
+sf.gg
+
+# gitcafe
+gitcafe.com
+gitcafe.io
+
+# coding
+coding.net
+coding.io
+
+# cn-cdn
+qbox.me
+cnzz.com
+qiniucdn.com
+clouddn.com
+upaiyun.com
+letvcdn.com
+
+# leancloud
+
+# ali213
+ali213.net
+
+# gamersky
+gamersky.com
+
+
 # Acfun
-#acfun.tv
+acfun.tv
 
 # Ali
 alipay.com
@@ -24,6 +57,8 @@ tiebaimg.com
 bdwm.net
 
 # Bilibili
+bilibili.tv
+bilibili.us
 bilibili.com
 acgvideo.com
 
